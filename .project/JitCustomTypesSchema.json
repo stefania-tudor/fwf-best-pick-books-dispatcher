@@ -1,0 +1,61 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "ForEachRowConnections`1_1",
+        "hash": "ForEachRowConnections`1_1|DataRow|5D5PMxZbPacw4DvfdzddZ16mGYhbL1OcXA6RaWGBo",
+        "dataType": "System.Data.DataRow, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Column A",
+            "dataType": "System.String, System.Private.CoreLib",
+            "name": "Column A",
+            "category": "Simplified"
+          }
+        ],
+        "rowExtensionProperties": [
+          {
+            "columnName": "WorksheetsRowIndex",
+            "dataType": "System.Int32, System.Private.CoreLib",
+            "descriptionKey": "General_RowExtensions_Property_WorksheetsRowIndex_Description",
+            "category": "Simplified"
+          }
+        ],
+        "nestedRowExtensionProperties": [
+          {
+            "parentColumnName": "Column A",
+            "extension": {
+              "columnName": "_Address",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column A Address",
+              "descriptionKey": "General_RowExtensions_Property_Column_Address_Description"
+            }
+          },
+          {
+            "parentColumnName": "Column A",
+            "extension": {
+              "columnName": "_ColumnAddress",
+              "dataType": "System.String, System.Private.CoreLib",
+              "name": "Column A ColumnAddress",
+              "descriptionKey": "General_RowExtensions_Property_Column_ColumnAddress_Description"
+            }
+          }
+        ],
+        "resourceManager": {
+          "resourceManagerName": "UiPath.MicrosoftOffice365.Properties.Resources",
+          "resourceManagerAssemblyName": "UiPath.MicrosoftOffice365"
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataRow1",
+        "hash": "ForEachRowConnections`1_1|DataRow|pfIstzOyHejm8RPAbRXUsD7p0aP9cDTYx2gSiqDZM|kTpLYz4sNoey8Tk2EUQH8fS98LWuj9UMSbl2aNSKE4|dpA8m66ruZrdVrm6TDByraKP8l0W6FcqcvXEux5QU",
+        "assemblyName": "Studio.Generated.TypedDataRow1"
+      }
+    }
+  ]
+}
