@@ -1,0 +1,291 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="OpenEmag" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="868.8,2507.2" sap2010:WorkflowViewState.IdRef="OpenEmag_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="OpenEmag" sap:VirtualizedContainerService.HintSize="512,2442.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: eMAG.ro - Căutarea nu se oprește niciodată" sap:VirtualizedContainerService.HintSize="449.6,2353.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,2113.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Gaming, Carti &amp; Birotica'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/" CVScreenId="7fb54788-d41b-41fe-9c4d-a8e57bfc5a22" CvTextArea="67, 504, 182, 20" CvTextArgument="Gaming, Carti &amp; Birotica" CvType="Text" DesignTimeRectangle="21, 493, 241, 39" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                                                                                                      Gaming, Carti &amp;amp; Birotica                         ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                                                                                                      Gaming, Carti &amp;amp; Birotica                         ' tag='A' type='' class='js-megamenu-list-department-link gtm_31vgamc' check:innerText='Gaming, Carti &amp;amp; Birotica' /&gt;" Guid="5e1bdadc-476f-4b56-af30-4aa48cc5a2e5" InformativeScreenshot="60c3c8a6f0e449ec8b82a0a2b72bdb99.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eMAG.ro - Căutarea nu se oprește niciodată' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="7fb54788-d41b-41fe-9c4d-a8e57bfc5a22" CvElementArea="18, 190, 127, 47" CvTextArea="61, 204, 71, 17" CvTextArgument="Produse" CvType="Button" DesignTimeRectangle="22, 193, 122, 44" FullSelectorArgument="&lt;webctrl class='navbar-aux-content__departments' parentid='auxiliary' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='navbar-aux-content__departments' parentid='auxiliary' tag='DIV' type='' aaname=' Produse                    ' check:innerText='Produse&amp;#xD;&amp;#xA;(deschide megameniul)' /&gt;" Guid="d903e77b-5896-4b35-b06d-19c6e6615154" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Librarie online'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_14" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/gaming-carti-birotica/d?ref=hdr_menu_department_5" CVScreenId="c8e70be1-5627-4f95-a42a-7937eea34e68" CvTextArea="207, 521, 119, 17" CvTextArgument="Librarie online" CvType="Text" DesignTimeRectangle="209, 518, 117, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Librarie online' parentid='emg-body-overlay' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Librarie online' parentid='emg-body-overlay' tag='A' type='' class='' check:innerText='Librarie online' /&gt;" Guid="dbfe0cbd-499a-46b6-8b09-3f1c20f7b704" InformativeScreenshot="95c84c75b738a3a1471c179416af8f0a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gaming, Carti &amp;amp; Birotica - eMAG.ro' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="c8e70be1-5627-4f95-a42a-7937eea34e68" CvTextArea="207, 269, 403, 38" CvTextArgument="Gaming, Carti &amp; Birotica" CvType="Text" DesignTimeRectangle="209, 262, 1500, 44" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname='Gaming, Carti &amp;amp; Birotica' check:innerText='Gaming, Carti &amp;amp; Birotica' /&gt;" Guid="5a2ff84e-f945-476a-a715-6058257834a0" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fictiune'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/librarie-online/sd?tree_ref=464&amp;ref=dep_cat_tree_23" CVScreenId="b16ef1e5-5366-4216-a68f-49b7ed312828" CvTextArea="207, 421, 65, 17" CvTextArgument="Fictiune" CvType="Text" DesignTimeRectangle="209, 418, 63, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Fictiune' parentid='emg-body-overlay' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Fictiune' parentid='emg-body-overlay' tag='A' type='' class='' check:innerText='Fictiune' /&gt;" Guid="9ef60325-a828-4e3e-916c-65276f03b8a2" InformativeScreenshot="e441c6541ed9cb16638fb548e76cc539.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Carti Online. Descopera oferte Librarie Online - eMAG.ro' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="b16ef1e5-5366-4216-a68f-49b7ed312828" CvTextArea="209, 301, 244, 31" CvTextArgument="Librarie online" CvType="Text" DesignTimeRectangle="209, 295, 1500, 44" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='page-title' aaname='Librarie online' check:innerText='Librarie online' /&gt;" Guid="1ccaadd7-da7b-4c42-8aa6-42405bbc1c1c" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Carturesti (14495)'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/fictiune/c?tree_ref=0&amp;ref=cat_tree_1000" CVScreenId="bf68ef36-eb8a-46a4-8a6e-0e73fa3be22d" CvElementArea="37, 483, 23, 21" CvTextArea="70, 484, 136, 18" CvTextArgument="Carturesti (14495)" CvType="CheckBox" DesignTimeRectangle="40, 481, 307, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Carturesti*' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Carturesti*' tag='A' class='js-filter-item filter-item' check:innerText='Carturesti ' /&gt;" Guid="49c31d03-a536-4fcc-a5fd-7948de7ea851" ImageBase64="" InformativeScreenshot="16d27dfef2b4eff809b1b5a599d9d853.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fictiune online - eMAG.ro' /&gt;" SearchSteps="Selector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="bf68ef36-eb8a-46a4-8a6e-0e73fa3be22d" CvTextArea="39, 407, 80, 17" CvTextArgument="Livrat de" CvType="Text" DesignTimeRectangle="40, 404, 78, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Livrat de' class='filter-name' parentid='main-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Livrat de' class='filter-name' parentid='main-container' tag='SPAN' type='' check:innerText='Livrat de' /&gt;" Guid="8b8c945a-8536-44a5-8943-22d84d2b0aba" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Livrate de eMAG (2935)'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/fictiune/c?tree_ref=0&amp;ref=cat_tree_1000" CVScreenId="fea596ea-760a-4f7c-bf0d-838dd1ec6edb" CvElementArea="37, 317, 23, 22" CvTextArea="70, 317, 177, 19" CvTextArgument="Livrate de eMAG (2935)" CvType="CheckBox" DesignTimeRectangle="40, 315, 322, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Livrate de eMAG                         (2935)                     ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Livrate de eMAG*' tag='A' type='' class='js-filter-item filter-item' /&gt;" Guid="a553eb90-af6f-4a2a-94ee-6656382796cf" InformativeScreenshot="13fe506eb0ea18d3ed5052b7daeacba7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fictiune online - eMAG.ro' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="fea596ea-760a-4f7c-bf0d-838dd1ec6edb" CvTextArea="39, 241, 118, 17" CvTextArgument="eMAG Genius" CvType="Text" DesignTimeRectangle="40, 238, 116, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='eMAG Genius' class='filter-name' parentid='main-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='eMAG Genius' class='filter-name' parentid='main-container' tag='SPAN' type='' check:innerText='eMAG Genius' /&gt;" Guid="c0fbea1e-5229-4893-8cac-7d3232a6f6bd" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '2023 (6034)'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/fictiune/c?tree_ref=0&amp;ref=cat_tree_1000" CVScreenId="6ecc038a-2123-4ccf-be25-c0d031ea3b7c" CvElementArea="37, 948, 23, 23" CvTextArea="69, 949, 91, 18" CvTextArgument="2023 (6034)" CvType="CheckBox" DesignTimeRectangle="40, 946, 307, 25" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='2023                         (6034)                     ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='2023*' tag='A' type='' class='js-filter-item filter-item' /&gt;" Guid="30a7c8a9-eb83-4686-b2bd-1204ea79b522" InformativeScreenshot="63fa53f9e550c34761c3e6051cf23cbb.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fictiune online - eMAG.ro' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="6ecc038a-2123-4ccf-be25-c0d031ea3b7c" CvTextArea="37, 904, 112, 21" CvTextArgument="An publicare" CvType="Text" DesignTimeRectangle="40, 901, 111, 24" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='An publicare' class='filter-name' parentid='main-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='An publicare' class='filter-name' parentid='main-container' tag='SPAN' type='' check:innerText='An publicare' /&gt;" Guid="cc3dc985-8c6e-49e8-964b-6fe5e97363b0" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ordoneaza dupa'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_19" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/fictiune/c?tree_ref=0&amp;ref=cat_tree_1000" CVScreenId="04902e9a-b4cb-4e05-b914-dfb0c7c1f226" CvElementArea="502, 487, 183, 44" CvType="InputBox" DesignTimeRectangle="504, 489, 179, 39" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='*Cele mai popular*' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                 Ordoneaza dupa                 Cele mai populare             ' tag='BUTTON' type='button' class='btn btn-sm btn-alt sort-control-btn gtm_ejaugtrtnc' check:innerText='Cele mai populare' /&gt;" Guid="1ce0a0a7-b8f2-4de6-a10d-8de4f09bddde" InformativeScreenshot="00227a41ce36af7182ae29dd2a6aae70.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fictiune online - eMAG.ro' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="04902e9a-b4cb-4e05-b914-dfb0c7c1f226" CvTextArea="417, 500, 82, 15" CvTextArgument="Ordoneaza:" CvType="Text" DesignTimeRectangle="419, 497, 80, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Ordoneaza:' parentid='main-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Ordoneaza:' parentid='main-container' tag='SPAN' type='' class='control-label small hidden-xs hidden-sm' check:innerText='Ordoneaza:' /&gt;" Guid="a3269a10-7e2f-469f-b531-3b7fd8894bba" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pret crescator'" sap:VirtualizedContainerService.HintSize="353.6,225.6" sap2010:WorkflowViewState.IdRef="NClick_20" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/fictiune/c?tree_ref=0&amp;ref=cat_tree_1000" CVScreenId="7e3f217b-c2a8-4c85-b1b9-0dc45c78f132" CvTextArea="516, 622, 100, 15" CvTextArgument="Pret crescator" CvType="Text" DesignTimeRectangle="505, 610, 177, 39" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Pret crescator' class='js-sort-option' parentid='main-container' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Pret crescator' class='js-sort-option' parentid='main-container' tag='A' type='' check:innerText='Pret crescator' /&gt;" Guid="13b7dcb8-c5b5-4c2a-98af-a343064fe3cc" InformativeScreenshot="d0d36e4a4f9a3d9e1e1b74726740554f.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fictiune online - eMAG.ro' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="7e3f217b-c2a8-4c85-b1b9-0dc45c78f132" CvTextArea="516, 500, 129, 20" CvTextArgument="Cele mai populare" CvType="Text" DesignTimeRectangle="517, 496, 128, 25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Cele mai populare' parentid='main-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Cele mai populare' parentid='main-container' tag='SPAN' type='' class='sort-control-btn-option text-truncate' check:innerText='Cele mai populare' /&gt;" Guid="07435719-c661-4a6c-bbbb-fc8eb5b49e92" SearchSteps="Selector, FuzzySelector, CV" />
+                      <uix:Target CVScreenId="7e3f217b-c2a8-4c85-b1b9-0dc45c78f132" CvTextArea="417, 500, 81, 15" CvTextArgument="Ordoneaza:" CvType="Text" DesignTimeRectangle="419, 497, 80, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Ordoneaza:' parentid='main-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Ordoneaza:' parentid='main-container' tag='SPAN' type='' class='control-label small hidden-xs hidden-sm' check:innerText='Ordoneaza:' /&gt;" Guid="c30287cc-b2d2-4eb8-ad59-78e2f08c73f4" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Afisare 60 pe pagina'" sap:VirtualizedContainerService.HintSize="353.6,218.4" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e101afd4-af6d-4ca9-835a-c3f5fe2d7325" Version="V3">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.emag.ro/fictiune/c?tree_ref=0&amp;ref=cat_tree_1000" CVScreenId="9fd83733-fd69-4705-8cbe-ffb14b555a09" CvElementArea="759, 488, 166, 43" CvType="InputBox" DesignTimeRectangle="762, 489, 162, 39" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                     Afisare                     60 pe pagina                 ' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                     Afisare                     60 pe pagina                 ' tag='BUTTON' type='button' class='btn btn-sm btn-alt sort-control-btn' check:innerText='60 pe pagina' /&gt;" Guid="178b1ba9-2cf2-4912-a082-f2a6474f8018" InformativeScreenshot="76f6700c30361035756eb1c5d0d98d4e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Fictiune online - eMAG.ro' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="9fd83733-fd69-4705-8cbe-ffb14b555a09" CvTextArea="695, 500, 61, 15" CvTextArgument="Produse:" CvType="Text" DesignTimeRectangle="696, 497, 61, 20" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Produse:' parentid='main-container' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Produse:' parentid='main-container' tag='SPAN' type='' class='control-label small hidden-xs hidden-sm' check:innerText='Produse:' /&gt;" Guid="412a10cf-ed44-4c20-b90f-c3cda95bd7de" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAI0SURBVDhPddNPSBRRHAfwNVdXOgRJgYfIkzC/9yQ3IkswPUgLhXhbOzmLpYf+7CH1ki6U1iUIURRaC2JdJbW8uBdXmwIVL5YErXSpzEA7tKlF4qK58/o+d9Ze0/qD721+H+Z934xDnR+8+ECcnzyxzM8GPrDKaIx53r1mNbFp5n01SXX3I9RQ/pyu5VqP/zurvOQwEohz99IyP5P8yCoFAAFATLNaMUF15hg1fhuhG70D1HTMWksNFo8iT5Hkd+4WAEQGQAAQw+QX/dQ8+ZhuHU8v5yAPEBMRCmACWJ9jNWsAkjjCHhCiFtGntT7q1jpcEvAgcbmsAFuf+LmuBeY5BcA9xS7dwxtsqEBQC6z1aHcuSGAgvSyDDsRXfnr0My8/uPuKGJTojJIvqAIPtYDo1tqfSGDxf6A0jFvQcYR6dFA/w7x6lHQJmCMK0KV1vJfApgpYRzDtJaY7wC0owN2fEkhkAGy34N0PSEjgix1Y4aUrAF4AMAAYAAwABgADgAHAAPASQEQCQyogOwDwBiUWzbPqbNyCEx04x8nnwpeYD8AFIA9AHjrYvcaLyGoa2OuAV0wtsPM+vEEZOqiaIP32GDVERulqsXU5qcFSLtKJ2D6kCtnBDoBfOEICR5CfsnhG18cH6WaBtZ4aLB5BQshvG5ChRL8IU1NvkNqc1npqsHwI8aODGIDtfYAtdPAWgN5HbdnW6t/Z4JSF37kQwBXcQgjADIB5ALMAwijxMn5n5U90OP4AxlPE6YUy1qwAAAAASUVORK5CYII=" InformativeScreenshot="19662247b03b32bbed8de298be32cae4.jpg" Selector="&lt;html app='chrome.exe' title='eMAG.ro - Căutarea nu se oprește niciodată' /&gt;" Title="eMAG.ro - Căutarea nu se oprește niciodată" Url="https://www.emag.ro/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
